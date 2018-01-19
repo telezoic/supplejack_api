@@ -28,3 +28,8 @@ group :test do
   gem 'faker'
   gem 'json-schema'
 end
+
+
+group :development do
+  gem "capistrano", "~> 3.9"
+end
