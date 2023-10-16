@@ -20,11 +20,13 @@ gem "mongo", "~> 2"
 
 #dbc
 gem 'supplejack_api', git: 'https://github.com/DigitalNZ/supplejack_api.git'
-gem 'sunspot_rails', '~> 2.2.0'
+gem 'sunspot_rails', '~> 2.4.0'
 gem 'active_model_serializers', '~> 0.10.7'
 gem 'mongoid_auto_increment'
 gem 'whenever', '~> 0.10.0'
 
+
+gem 'rack-cors'
 
 
 # Use the Puma web server [https://github.com/puma/puma]
